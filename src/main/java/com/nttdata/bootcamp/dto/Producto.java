@@ -5,6 +5,7 @@ public class Producto {
 	public int productId;
 	public String channel;
 	public String port;
+	public String productName;
 	
 
 	public int getProductId() {
@@ -34,6 +35,16 @@ public class Producto {
 
 	public void setPort(String port) {
 		this.port = port;
+	}
+
+
+	public String getProductName() {
+		return productName;
+	}
+
+
+	public void setProductName(String productName) {
+		this.productName = productName;
 	}
 
 

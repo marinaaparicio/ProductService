@@ -4,8 +4,8 @@ import com.nttdata.bootcamp.dto.Producto;
 
 public interface ProductoServicioI {
 	
-	Producto getProducto(Integer id);
+	public Producto getProducto(Integer id);
 	
-	Producto postProducto(Integer id);
+	public Producto postProducto(Integer id);
 
 }
