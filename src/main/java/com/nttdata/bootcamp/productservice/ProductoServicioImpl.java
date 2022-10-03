@@ -12,10 +12,10 @@ public class ProductoServicioImpl implements ProductoServicioI{
 	@Value("${server.product-name}")
 	private String productName;
 	
+	Producto producto = new Producto();
 	
 	@Override
 	public Producto getProducto(Integer id) {
-		Producto producto = new Producto();
 		producto.setProductId(id);
 		producto.setChannel("GET");
 		return producto;
@@ -23,7 +23,6 @@ public class ProductoServicioImpl implements ProductoServicioI{
 
 	@Override
 	public Producto postProducto(Integer id) {
-		Producto producto = new Producto();
 		producto.setProductId(id);
 		producto.setChannel("POST");
 		return producto;
