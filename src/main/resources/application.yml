@@ -3,6 +3,6 @@ spring:
     name: product-service
     
 server:
-  port: 8089
+  port: 8082
   
   
